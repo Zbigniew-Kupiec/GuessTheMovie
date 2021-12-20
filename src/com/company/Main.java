@@ -57,8 +57,8 @@ public class Main {
 
     private static void extracted(@NotNull GameMain project) {
         System.out.print("You are guessing: ");
-        System.out.println(ANSI_RED + project.getMovieCode() + ANSI_RESET);
-        System.out.print("Incorrect letters : (" + ANSI_GREEN + project.getBadTrying() + ANSI_RESET + ") ");
+        System.out.println(ANSI_GREEN + project.getMovieCode() + ANSI_RESET);
+        System.out.print("Incorrect letters : (" + ANSI_RED + project.getBadTrying() + ANSI_RESET + ") ");
         System.out.println(ANSI_PURPLE + project.getBadSolve() + ANSI_RESET);
         System.out.println("Wrong guesses left : (" + ANSI_YELLOW + project.getAttemptsLeft() + ANSI_RESET + ") ");
         System.out.print("Guess a letter : ");
